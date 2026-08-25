@@ -1,0 +1,11 @@
+{
+  "name": "omnea-serverless-platform-control-plane",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/gate.test.ts",
+    "check:safe": "node --experimental-strip-types src/cli.ts examples/production-platform.json",
+    "check:unsafe": "node --experimental-strip-types src/cli.ts examples/unsafe-platform.json"
+  }
+}
