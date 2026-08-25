@@ -1,0 +1,10 @@
+{
+  "owner":null,
+  "infrastructure":{"iacTool":"manual","pulumiPreview":false,"lambdaConcurrencyGuard":false,"asyncBackpressure":false,"dynamodbCapacityManaged":false,"auroraConnectionProtection":false,"capacityHeadroomPercent":0},
+  "region":{"recoveryRegion":null,"rtoMinutes":480,"rpoMinutes":120,"failoverTested":false,"residencyClassification":null,"residencySafeRouting":false},
+  "delivery":{"githubActions":false,"progressiveDelivery":false,"automaticRollback":false,"productionValidation":false,"rollbackOwner":null},
+  "observability":{"logs":false,"metrics":false,"traces":false,"datadogOwner":null,"slo":false,"burnRateAlerts":false,"customerImpactSignal":false,"deploymentMarkers":false},
+  "security":{"leastPrivilege":false,"workloadIdentity":false,"managedSecrets":false,"encryptionAtRest":false,"encryptionInTransit":false,"auditEvidence":false,"dependencyScan":false,"containerScan":false,"controlledBreakGlass":false,"securityOwner":null},
+  "developerExperience":{"reusableComponent":false,"selfService":false,"docs":null,"feedbackLatencyMeasured":false,"exceptionOwner":null,"exceptionExpiry":null},
+  "commercial":{"costOwner":null,"costPerWorkload":false,"budgetThreshold":false,"serverlessAnomalyDetection":false,"tradeoffDocumented":false}
+}
