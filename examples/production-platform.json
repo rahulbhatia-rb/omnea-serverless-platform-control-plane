@@ -1,0 +1,10 @@
+{
+  "owner":"platform",
+  "infrastructure":{"iacTool":"pulumi","pulumiPreview":true,"lambdaConcurrencyGuard":true,"asyncBackpressure":true,"dynamodbCapacityManaged":true,"auroraConnectionProtection":true,"capacityHeadroomPercent":40},
+  "region":{"recoveryRegion":"eu-west-1","rtoMinutes":30,"rpoMinutes":5,"failoverTested":true,"residencyClassification":"uk-eu","residencySafeRouting":true},
+  "delivery":{"githubActions":true,"progressiveDelivery":true,"automaticRollback":true,"productionValidation":true,"rollbackOwner":"platform-oncall"},
+  "observability":{"logs":true,"metrics":true,"traces":true,"datadogOwner":"platform","slo":true,"burnRateAlerts":true,"customerImpactSignal":true,"deploymentMarkers":true},
+  "security":{"leastPrivilege":true,"workloadIdentity":true,"managedSecrets":true,"encryptionAtRest":true,"encryptionInTransit":true,"auditEvidence":true,"dependencyScan":true,"containerScan":true,"controlledBreakGlass":true,"securityOwner":"security"},
+  "developerExperience":{"reusableComponent":true,"selfService":true,"docs":"docs/golden-path.md","feedbackLatencyMeasured":true,"exceptionOwner":"platform","exceptionExpiry":"2026-12-31"},
+  "commercial":{"costOwner":"platform","costPerWorkload":true,"budgetThreshold":true,"serverlessAnomalyDetection":true,"tradeoffDocumented":true}
+}
